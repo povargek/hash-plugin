@@ -34,6 +34,7 @@
 #define RIPEMD320_LENGTH 80
 
 // Hashing
+native sha1(const key[], hash[], len = sizeof(hash));
 native sha256(const key[], hash[], len = sizeof(hash));
 native sha384(const key[], hash[], len = sizeof(hash)); 
 native sha512(const key[], hash[], len = sizeof(hash));

@@ -5,6 +5,7 @@
 [Dd]ebug/
 [Rr]elease/
 obj/
+.idea/
 *.VC.db
 *.VC.opendb
 *.VC.db-shm
@@ -13,3 +14,4 @@ obj/
 *.lib
 *.pdb
 *.idb
+.DS_Store

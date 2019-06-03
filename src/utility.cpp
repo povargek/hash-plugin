@@ -60,6 +60,12 @@ cell Utility::crc32(string input)
 	return result;
 }
 
+void Utility::sha1(string input, string &output)
+{
+	CryptoPP::SHA1 h_sha1;
+	CryptoPP::StringSource(input, true, new CryptoPP::HashFilter(h_sha1, new CryptoPP::HexEncoder(new CryptoPP::StringSink(output))));
+}
+
 void Utility::sha256(string input, string &output)
 {
 	CryptoPP::SHA256 h_sha256;

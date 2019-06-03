@@ -24,6 +24,7 @@
 namespace Native
 {
 	// Hashing
+	cell AMX_NATIVE_CALL sha1(AMX *amx, cell *params);
 	cell AMX_NATIVE_CALL sha256(AMX *amx, cell *params);
 	cell AMX_NATIVE_CALL sha384(AMX *amx, cell *params);
 	cell AMX_NATIVE_CALL sha512(AMX *amx, cell *params);

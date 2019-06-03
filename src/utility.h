@@ -39,6 +39,7 @@ typedef struct
 
 namespace Utility
 {
+	void sha1(string input, string &output);
 	void sha256(string input, string &output);
 	void sha384(string input, string &output);
 	void sha512(string input, string &output);
